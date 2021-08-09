@@ -69,6 +69,9 @@ ssh root@127.0.0.1 -p <port>
 
 When being prompted, type `yes` to continue connecting. You are then prompted for the password. Use `Docker!`, which was shown to you earlier.
 
+> [!TIP]
+> You can change the default password configuring the environment variable `WEBSITE_SSH_PASSWORD=your_ssh_pass`, which by default is "Docker!"
+  
 <pre>
 Warning: Permanently added '[127.0.0.1]:21382' (ECDSA) to the list of known hosts.
 root@127.0.0.1's password:
